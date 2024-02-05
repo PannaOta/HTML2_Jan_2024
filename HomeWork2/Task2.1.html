@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FiveDiv</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fjalla+One&family=Indie+Flower&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: bisque;
+            /*display: inline-block;*/
+            margin: 20px;
+            /*float: left;*/
+        }
+            .flex{
+                width: 100%;
+                height: 500px;
+                background-color: black;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .rubik{
+                font-family: 'Rubik Pixels', system-ui;
+            }
+            .sedgwick{
+                font-family: 'Sedgwick Ave Display', cursive;
+            }
+            .flowers{
+                font-family: 'Indie Flower', cursive;
+            }
+            .dancing{
+                font-family: 'Dancing Script', cursive;
+            }
+            .one{
+                font-family: 'Fjalla One', sans-serif;
+            }
+
+    </style>
+</head>
+<body>
+<div class="flex">
+  <div><p class="rubik">Rubik Pixels</p></div>
+  <div><p class="sedgwick">Sedgwick Ave Display</p></div>
+  <div><p class="dancing">Dancing Script</p></div>
+  <div><p class="one">Fjalla One</p></div>
+  <div><p class="flowers">Indie Flower</p></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 50px;
+
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background-color: #6363f3;
+        }
+        .left{
+            width: 380px;
+            height: 480px;
+            background-color: darkblue;
+
+        }
+        .center{
+            width: 380px;
+            height: 480px;
+            background-color: darkblue;
+        }
+        .right{
+            width: 380px;
+            height: 480px;
+            background-color: darkblue;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+        footer{
+            width: 100%;
+            height: 400px;
+            background-color: #6363f3;
+
+        }
+        header, .left, .center, .right, footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Bigger{
+            color: white;
+            font-size: xxx-large;
+
+        }
+        p{
+            color: white;
+            font-size: xx-large;
+            opacity: 0.5;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<header><p class="Bigger">Widgets</p></header>
+<main>
+    <div class="left"><p>Big Widgets</p></div>
+    <div class="center"><p>Bigger Widgets</p></div>
+    <div class="right"><p>Huge Widgets</p></div>
+</main>
+<footer><p class="Bigger">Contacts</p></footer>
+
+</body>
+</html>
